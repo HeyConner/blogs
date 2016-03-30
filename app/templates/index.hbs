@@ -1,0 +1,11 @@
+
+
+<h2>Latest Posts</h2>
+
+<ul>
+  {{#each model as |blog|}}
+    {{blog-tile post=post update="update" destroyBlog="destroyBlog"}}
+  {{/each}}
+</ul>
+
+{{new-blog save2="save3"}}
